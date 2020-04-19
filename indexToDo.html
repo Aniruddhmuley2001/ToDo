@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleToDo.css">
+    <title>Notify: Your very own To do list</title>
+</head>
+<body>
+    <div id="container">
+        <div class="controls">
+            <h1>Add your target here</h1>
+            <input type="text" id="input"><br>
+            <button type="button" id="add">Add TODO</button>
+            <button type="button" id="remove">Remove done TODO</button>
+            <button type="button" id="removeAll">Remove all</button>
+        </div>
+        <ul id="list">
+            <li class="myCheck">
+                <input type="checkbox" id="check">
+                <label>Complete JS series</label>
+            </li>
+            <li class="myCheck">
+                <input type="checkbox" id="check">
+                <label>HM reading 1</label>
+            </li>
+        </ul>
+    </div>
+    <script src="scriptToDo.js"></script>
+</body>
+</html>
